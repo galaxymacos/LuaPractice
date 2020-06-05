@@ -12,7 +12,7 @@ print ("Hello, world")
 -- bank_balance = -30.35
 -- print(bank_balance)
 
---                              get the type of a variable (Dynamicly typed language)
+--                              get the type of a variable (Dynamically typed language)
 -- score = 0
 -- print(type(score))
 -- score = "One Hundred" 
