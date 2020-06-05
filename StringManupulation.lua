@@ -18,4 +18,11 @@ if(index ~= nil) then
     print("1 is at the index of "..index)
 end
 
+bigstream = [[
+    apjfosfjasfovopdivh
+    fsapfoaserhpr h
+    beaspfshfpaseoiur
+]]
+print("Big stream: "..bigstream)
+
  
