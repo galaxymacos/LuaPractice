@@ -28,7 +28,13 @@ print ("Hello, world")
 -- table
 
 --                                          Join string and value, integer/integer=float
-salary = 25/2 -- keep the floating part
-print("The value of salary is "..salary)
-salary = 25//2 -- forgo the floating part
-print("The value of salary is "..salary)
+-- salary = 25/2 -- keep the floating part
+-- print("The value of salary is "..salary)
+-- salary = 25//2 -- forgo the floating part
+-- print("The value of salary is "..salary)
+
+-- Calculate New salary increased by 15%
+salary = 500000.00
+name = "Miles Davis"
+salary = salary/5*5
+print("New salary is: "..salary)
