@@ -61,3 +61,13 @@ for i, v in ipairs(codeKeys) do
 end
 
 -- Use table as matrix
+mat = {}
+
+N = 3
+M = 4
+for i = 1, N do
+    mat[i] = {}
+    for j = 1, M do
+        mat[i][j] = 0
+    end
+end
