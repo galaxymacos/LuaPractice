@@ -4,13 +4,17 @@
 --- DateTime: 6/5/2020 3:13 PM
 ---
 
-local option = 0
-while option ~= 1 and option ~= 2 do
+function displayMenu()
     print("1. Start your game")
     print("2. Exit game")
 
     print("Please, select your option: ")
     option = io.read("*n")
+end
+
+local option = 0
+while option ~= 1 and option ~= 2 do
+    displayMenu()
 end
 
 if option == 1 then

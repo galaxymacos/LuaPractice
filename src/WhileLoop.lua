@@ -15,3 +15,4 @@ while num_enemies < 500 do
         print("Generate "..num_enemies.." enemies at ("..enemy_x..", "..enemy_y..")")
     end
 end
+
