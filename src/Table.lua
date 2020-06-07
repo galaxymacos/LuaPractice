@@ -10,6 +10,7 @@
 --print(quiz_scores["Player1"])
 
 -- pairs
+
 quiz_scores = {
     Player1 = 1,
     Player2 = 2,
@@ -53,7 +54,7 @@ local line = io.read("*n")
 print("Enter the word index: ")
 local word = io.read("*n")
 
--- How to search the code of page, line, word
+--[[ How to search the code of page, line, word --]]
 for i, v in ipairs(codeKeys) do
     if v.Page == page and v.line == line and v.Word == word then
         print("The code is "..v.Code)
