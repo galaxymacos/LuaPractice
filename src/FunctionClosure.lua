@@ -27,4 +27,3 @@ print(r_avg(10))
 print(r_avg(10.5))
 print(r_avg(11))
 
-return kata

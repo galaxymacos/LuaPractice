@@ -4,5 +4,9 @@
 --- DateTime: 6/5/2020 6:55 PM
 ---
 
+a = 10
 
-
+repeat
+    a = a + 1
+    print(a)
+until a > 15
