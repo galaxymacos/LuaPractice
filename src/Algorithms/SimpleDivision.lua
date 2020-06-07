@@ -45,6 +45,5 @@ end
 
 print(simplediv.solve(54,2834359))
 
-return simplediv
 
 
