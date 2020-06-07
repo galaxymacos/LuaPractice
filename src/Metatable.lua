@@ -24,7 +24,6 @@ end
 ----------------------------------------------------------------
 
 function vector3d.add(v1, v2)
-    --TODO:
     local newVector = {x = v1.x+v2.x, y = v1.y+v2.y, z = v1.z+v2.z}
     return newVector
 end
