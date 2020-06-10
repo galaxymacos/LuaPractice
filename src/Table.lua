@@ -55,7 +55,7 @@ print("Enter the word index: ")
 local word = io.read("*n")
 
 --[[ How to search the code of page, line, word --]]
-for i, v in ipairs(codeKeys) do
+for _, v in pairs(codeKeys) do
     if v.Page == page and v.line == line and v.Word == word then
         print("The code is "..v.Code)
     end

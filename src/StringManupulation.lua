@@ -19,10 +19,8 @@ if(index ~= nil) then
 end
 
 bigstream = [[
-    apjfosfjasfovopdivh
-    fsapfoaserhpr h
+    apjfosfjasfovopdi
+    fsapfoaserhprhefr
     beaspfshfpaseoiur
 ]]
 print("Big stream: "..bigstream)
-
- 

@@ -69,7 +69,7 @@ while not game_over do
     print("Enter the col you want to place the symbol "..player..": ")
     local col_to_play = io.read("*n")
 
-    if(move % 2 == 0) then
+    if move % 2 == 0 then
         player = "X"
     else
         player = "O"

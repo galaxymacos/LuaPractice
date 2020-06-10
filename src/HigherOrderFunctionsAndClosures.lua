@@ -17,6 +17,8 @@ students = {
     end)
 
 
+
+
 function funcA(a)
     local c = 10
     function funcB(b)
